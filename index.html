@@ -1,22 +1,32 @@
-<!DOCTYPE html> <!--Serve para informar ao navegador sobre o tipo de documento esperar. Neste caso estamos informando ao navegador que o documento usado é do tipo HTML5. Fonte: https://www.w3schools.com/tags/ref_html_dtd.asp -->
-<html lang="pt-br"> <!--Sempre deve-se declarar, dentro da tag <> o idioma da página da Web. Isso serve para ajudar os motores de pesquisa e navegadores: "lang <html>". Fonte: https://www.w3schools.com/tags/ref_language_codes.asp-->
+<!DOCTYPE html> <!--Serve para informar ao navegador sobre o tipo de documento esperar. Neste caso 
+    estamos informando ao navegador que o documento usado é do tipo HTML5. Fonte: https://www.w3schools.com/tags/ref_html_dtd.asp -->
+<html lang="pt-br"> <!--Sempre deve-se declarar, dentro da tag <> o idioma da página da Web. Isso 
+    serve para ajudar os motores de pesquisa e navegadores: "lang <html>". Fonte: https://www.w3schools.com/tags/ref_language_codes.asp-->
     
-    <head> <!--O <head>elemento é um contêiner para metadados (dados sobre dados) e é colocado entre uma tag <html> e a <body>. Fonte https://www.w3schools.com/tags/tag_head.asp-->
-        <meta charset="utf-8"> <!--O atributo "charset" especifica uma codificação de caracteres para o documento HTML. Em teoria, qualquer codificação de caracteres pode ser usada, mas nenhum navegador entende todos eles. Quanto mais ampla for a utilização de uma codificação de caracteres, melhor será a possibilidade de um navegador a compreender. A codificação para Unicode ISO-8859-1 = UTF-8 é usada para o alfabeto latino.-->
+    <head> <!--O <head>elemento é um contêiner para metadados (dados sobre dados) e é colocado entre
+         uma tag <html> e a <body>. Fonte https://www.w3schools.com/tags/tag_head.asp-->
+        <meta charset="utf-8"> <!--O atributo "charset" especifica uma codificação de caracteres 
+            para o documento HTML. Em teoria, qualquer codificação de caracteres pode ser usada, mas
+             nenhum navegador entende todos eles. Quanto mais ampla for a utilização de uma 
+             codificação de caracteres, melhor será a possibilidade de um navegador a compreender. 
+             A codificação para Unicode ISO-8859-1 = UTF-8 é usada para o alfabeto latino.-->
         <title>Minha Primeira Página</title> 
     </head>
 
-    <header>
-        <h1>Minha Página</h1>
-        <p>Desenvolvemos site para empresas</p>
-    </header>
-
-    <body> <!--A tag <body> define o corpo do documento. Está tag contém todo o conteúdo de um documento HTML, como títulos, gráficos, imagens, hiperlinks, tabelas, listas, etc. Nota: SÓ PODE EXISTIR NO DOCUMENTO HTML UMA TAG <body>.-->
+    <body> <!--A tag <body> define o corpo do documento. Está tag contém todo o conteúdo de um 
+        documento HTML, como títulos, gráficos, imagens, hiperlinks, tabelas, listas, etc. Nota:
+      SÓ PODE EXISTIR NO DOCUMENTO HTML UMA TAG <body>.-->
         <p>Minha Primeira Página</p> <!--A tag<p> define um parágrafo.-->
+            <header>
+                <h1>Minha Página</h1>
+                <p>Desenvolvimento de site para empresas</p>
+            </header> <!--O elemento HTML <header> representa um grupo de suporte introdutório ou 
+                navegacional. Pode conter alguns elementos de cabeçalho mas também outros elementos
+                 como um logo, seções de cabeçalho, formulário de pesquisa, e outros.-->
+            <footer> <!--Está tag define um rodapé.-->
+                <p>Desenvolvido por Marcelo Suliano</p>
+            </footer>
+        
     </body>
-
-    <footer> <!--Está tag define um rodapé.-->
-        <p>Desenvolvido por Marcelo Suliano</p>
-    </footer>
-
+    
 </html>
